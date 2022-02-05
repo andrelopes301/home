@@ -107,7 +107,7 @@ const skills = {
     { name: "Mysql", value: 75 },
     { name: "Matlab", value: 65 },
     { name: "HTML/CSS/Bootstrap", value: 90 },
-    { name: "JavaScript", value: 80 },
+    { name: "JavaScript", value: 70 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 90 },
@@ -126,7 +126,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-  "If you have any questions, or if you just want to contact me, feel free to email me at",
+  "If you have any questions, or if you just want to contact me,feel free to email me at",
   email: "andrerlopes00@gmail.com",
 };
 
