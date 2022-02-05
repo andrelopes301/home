@@ -65,7 +65,7 @@ const repos = {
   gitHubUsername: "andrelopes301", 
   reposLength: 0,
   //specificRepos: [],
-  specificRepos: ["Reversi","LabTestesOnline","Connect4-Java-JavaFX","Neural-Networks","MEDICALso","GestaoDepInformatica"],
+  specificRepos: ["weatherApp","Reversi","LabTestesOnline","Connect4-Java-JavaFX","Neural-Networks","MEDICALso"],
 
 };
 
