@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/perfil.png"),
   imageSize: 375,
   message:
-    "My name is André Lopes. I'm a Software Engineer Student from Portugal, currently in my final year at Instituto Superior de Engenharia de Coimbra. I'm very passionate with creating new apps, developing code and solving new problems.",
+    "My name is André Lopes. I'm a Software Engineer Student from Portugal, currently in my final year at Instituto Superior de Engenharia de Coimbra. I'm very passionate about creating new apps, developing code and solving new problems.",
   resume: "https://drive.google.com/file/d/1UwGXONzGbQwLKi30e0d2qDwPFrLwYMcU/view?usp=sharing",
 };
 
@@ -62,10 +62,10 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "andrelopes301", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  gitHubUsername: "andrelopes301", 
+  reposLength: 0,
   //specificRepos: [],
-  specificRepos: ["Reversi","Connect4-Java-JavaFX","Neural-Networks","Reactive-Agents"],
+  specificRepos: ["Reversi","LabTestesOnline","Connect4-Java-JavaFX","Neural-Networks","MEDICALso","GestaoDepInformatica"],
 
 };
 
@@ -108,7 +108,6 @@ const skills = {
     { name: "Matlab", value: 65 },
     { name: "HTML/CSS/Bootstrap", value: 90 },
     { name: "JavaScript", value: 80 },
-    { name: "React", value:75 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 90 },
