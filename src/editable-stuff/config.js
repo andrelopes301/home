@@ -6,30 +6,26 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "André",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Lopes",
+  message: " Software Engineer Student | Programmer | Developer | Editor ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/andrelopes301",
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://www.facebook.com/andrelopes2000",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/andrelopes301/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/andrelopes301/",
     },
   ],
 };
@@ -51,11 +47,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/perfil.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is André Lopes. I'm a Software Engineer Student from Portugal, currently in my final year at Instituto Superior de Engenharia de Coimbra. I'm very passionate about creating new apps, developing code and solving problems.",
+  resume: "https://drive.google.com/file/d/1UwGXONzGbQwLKi30e0d2qDwPFrLwYMcU/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -66,9 +62,11 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  gitHubUsername: "andrelopes301", //i.e."johnDoe12Gh"
+  reposLength: 6,
   specificRepos: [],
+  //specificRepos: ["Reversi","Connect4-Java-JavaFX","Neural-Networks","Reactive-Agents"],
+
 };
 
 // Leadership SECTION
@@ -100,23 +98,26 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
+    { name: "Java", value: 85 },
+    { name: "C/C++", value: 75 },
+    { name: "Kotlin", value: 80 },
+    { name: "Flutter", value: 80 },
     { name: "C#", value: 80 },
+    { name: ".Net", value: 80 },
+    { name: "Mysql", value: 75 },
+    { name: "Matlab", value: 65 },
+    { name: "HTML/CSS/Bootstrap", value: 90 },
+    { name: "JavaScript", value: 80 },
+    { name: "React", value:75 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 90 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
+    { name: "Positivity", value: 90},
+    { name: "Adaptability", value: 80 },
+    { name: "Problem Solving", value: 85 },
+    { name: "Empathy", value: 95 },
+    { name: "Organization", value: 90 },
     { name: "Creativity", value: 90 },
   ],
 };
@@ -126,8 +127,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+  "If you have any questions, or if you just want to contact me, feel free to email me at",
+  email: "andrerlopes00@gmail.com",
 };
 
 const experiences = {
