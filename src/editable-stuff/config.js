@@ -63,7 +63,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "andrelopes301", //i.e."johnDoe12Gh"
-  reposLength: 6,
+  reposLength: 4,
   specificRepos: [],
   //specificRepos: ["Reversi","Connect4-Java-JavaFX","Neural-Networks","Reactive-Agents"],
 
