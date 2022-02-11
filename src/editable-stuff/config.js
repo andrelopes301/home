@@ -51,7 +51,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is André Lopes. I'm a Software Engineer Student from Portugal, currently in my final year at Instituto Superior de Engenharia de Coimbra. I'm very passionate about creating new apps, developing code and solving new problems.",
-  resume: "https://drive.google.com/file/d/1UwGXONzGbQwLKi30e0d2qDwPFrLwYMcU/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1BPiRjsAagICJkIfGzn3AL1rdg6QBHdoa/view?usp=sharing",
 };
 
 // PROJECTS SECTION
