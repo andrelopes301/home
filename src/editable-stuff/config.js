@@ -126,7 +126,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-  "If you have any questions, or if you just want to contact me,feel free to email me at",
+  "If you have any questions, or if you just want to contact me, feel free to email me at",
   email: "andrerlopes00@gmail.com",
 };
 
