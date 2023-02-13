@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "André",
   middleName: "",
   lastName: "Lopes",
-  message: " Software Engineer Student | Programmer | Developer | Editor ",
+  message: " Software Engineer | Student | Developer | Editor ",
   icons: [
     {
       image: "fa-github",
@@ -49,9 +49,8 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/perfil.png"),
   imageSize: 375,
-  message:
-    "My name is André Lopes. I'm a Software Engineer Student from Portugal, currently in my final year at Instituto Superior de Engenharia de Coimbra. I'm very passionate about creating new apps, developing code and solving new problems.",
-  resume: "https://drive.google.com/file/d/1BPiRjsAagICJkIfGzn3AL1rdg6QBHdoa/view?usp=sharing",
+  message:"",
+    resume: "https://drive.google.com/file/d/18FityDAbw-6zk_7aOTURKpFBFVJtPEb9/view?usp=share_link",
 };
 
 // PROJECTS SECTION
@@ -65,7 +64,7 @@ const repos = {
   gitHubUsername: "andrelopes301", 
   reposLength: 0,
   //specificRepos: [],
-  specificRepos: ["weatherApp","Reversi","LabTestesOnline","Connect4-Java-JavaFX","Neural-Networks","MEDICALso"],
+  specificRepos: ["SmartFarmMonitoring","PlayStoreAnalytics","WWF","weatherApp","Reversi","ClinicalAnalysisManagement"],
 
 };
 
@@ -98,16 +97,16 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Java", value: 85 },
-    { name: "C/C++", value: 75 },
-    { name: "Kotlin", value: 80 },
-    { name: "Flutter", value: 80 },
-    { name: "C#", value: 80 },
+    { name: "Java", value: 80 },
+    { name: "C/C++", value: 80 },
+    { name: "C#", value: 85 },
     { name: ".Net", value: 80 },
-    { name: "Mysql", value: 75 },
-    { name: "Matlab", value: 65 },
+    { name: "Mysql", value: 85 },
     { name: "HTML/CSS/Bootstrap", value: 90 },
-    { name: "JavaScript", value: 70 },
+    { name: "JavaScript", value: 80 },
+    { name: "Kotlin", value: 90 },
+    { name: "Flutter", value: 70 },
+    { name: "Swift", value: 80},
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 90 },

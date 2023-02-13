@@ -7,7 +7,7 @@ const pictureLinkRegex = new RegExp(
   /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
 );
 
-const AboutMe = ({ heading, message, link, imgSize, resume }) => {
+const AboutMe = ({ heading, link, imgSize, resume }) => {
   const [profilePicUrl, setProfilePicUrl] = React.useState("");
   const [showPic, setShowPic] = React.useState(Boolean(link));
 
@@ -47,9 +47,16 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
             )}
           </div>
 
-          <div className={`col-lg-${showPic ? "7" : "12"}`}>
+          <div className={`col-lg-${showPic ? 7 : 12}`}>
             <h2 className="display-4 mb-5 text-center">{heading}</h2>
-            <p className="lead text-center">{message}</p>
+            <p className="lead" align=" center">
+              I am André Lopes, a Portuguese <strong>Software Engineer</strong> with a degree from Coimbra Institute of Engineering. Passionate about app development and problem-solving through code.
+              <br /><br />
+              Currently, I'm learning <strong>Outsystems</strong>, a low-code development platform that allows for quick and efficient custom app creation with minimal coding.
+              <br /><br />
+              I'm also attending a <strong>Master in Informatics Engineering</strong> to deepen my understanding of information systems and stay current with the latest industry trends.
+            </p>
+
             {resume && (
               <p className="lead text-center">
                 <a
