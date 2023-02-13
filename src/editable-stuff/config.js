@@ -62,7 +62,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "andrelopes301", 
-  reposLength: 0,
+  reposLength: 6,
   //specificRepos: [],
   specificRepos: ["SmartFarmMonitoring","PlayStoreAnalytics","WWF","weatherApp","Reversi","ClinicalAnalysisManagement"],
 
@@ -100,12 +100,12 @@ const skills = {
     { name: "Java", value: 80 },
     { name: "C/C++", value: 80 },
     { name: "C#", value: 85 },
-    { name: ".Net", value: 80 },
+    { name: ".Net", value: 75 },
     { name: "Mysql", value: 85 },
     { name: "HTML/CSS/Bootstrap", value: 90 },
     { name: "JavaScript", value: 80 },
     { name: "Kotlin", value: 90 },
-    { name: "Flutter", value: 70 },
+    { name: "Flutter", value: 65 },
     { name: "Swift", value: 80},
   ],
   softSkills: [
